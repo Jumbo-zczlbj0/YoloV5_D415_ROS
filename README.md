@@ -5,10 +5,6 @@ The code uses the official realsense documentation and yolov5_ros from mats-robo
 ### 1.Install cuda && pytorch
 > install CUDA URL：https://developer.nvidia.com/cuda-toolkit
 
-> conda create --name yolov5 python=3.10
-
-> conda activate yolov5
-
 > install pytorch URL：https://pytorch.org/  
 
 ### 2.git && install requirements
@@ -59,6 +55,8 @@ The code uses the official realsense documentation and yolov5_ros from mats-robo
 > catkin_make
 
 ## Run
+
+cd ~/catkin_ws
 
 > source ~/catkin_ws/devel/setup.bash
 
